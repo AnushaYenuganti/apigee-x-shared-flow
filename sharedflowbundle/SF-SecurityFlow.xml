@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="2" name="SF-SecurityFlow">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1774563003968</CreatedAt>
+  <LastModifiedAt>1774563003968</LastModifiedAt>
+  <Policies>
+    <Policy>VA-VerifyApiKey</Policy>
+    <Policy>Q-SetQuota</Policy>
+  </Policies>
+  <SharedFlows>
+    <SharedFlow>default</SharedFlow>
+  </SharedFlows>
+  <subType>SharedFlow</subType>
+</SharedFlowBundle>

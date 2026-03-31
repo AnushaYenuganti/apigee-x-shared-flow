@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+  <Step>
+    <Name>VA-VerifyApiKey</Name>
+  </Step>
+  <Step>
+    <Name>Q-SetQuota</Name>
+    <Condition>(proxy.pathsuffix MatchesPath "/searchPlace") and (request.verb = "GET")</Condition>
+  </Step>
+</SharedFlow>
